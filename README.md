@@ -1,4 +1,4 @@
-# LAB-AP-01-2023
+# LAB-AP-03-2023
 
 # Repositori Tugas Praktikum Algoritma dan Pemrograman 2023
 
@@ -22,7 +22,7 @@
 
    ```sh
 
-   cd LAP-AP-01-2023
+   cd LAP-AP-03-2023
    git branch NIM_ANDA
    git checkout NIM_ANDA
    git config user.name USERNAME_GITHUB
@@ -98,7 +98,7 @@
    #3. Scroll ke bagian bawah dan pilih menu Dveloper settings
    #4. Pilih Prsonal access tokens
    #5. Pilih Generate new tokes
-   #6. Tuliskan note untuk token anda (ex: Token for LAB-AP-01-2023)
+   #6. Tuliskan note untuk token anda (ex: Token for LAB-AP-03-2023)
    #7. Atur waktu expiration token anda (sesuai keinginan anda)
    #8. Pada select scope, ceklis box repo
    #9. Klik generate new token
