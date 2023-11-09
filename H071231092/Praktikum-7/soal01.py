@@ -4,7 +4,7 @@ import os,random,time
 def membuat_transaksi_id():
     waktu_sekarang = time.localtime()
     nomor_acak= random.randint(100, 999)
-    transaksi_id = nama_kasir[:1].upper() + time.strftime("%y%m%d%H%M%S", waktu_sekarang) + str(nomor_acak)
+    transaksi_id = nama_kasir[0].upper() + nama_kasir[len(nama_kasir)//2].upper() + nama_kasir[-1].upper() + time.strftime("%y%m%d%H%M%S", waktu_sekarang) + str(nomor_acak)
     return transaksi_id
 
 # Fungsi untuk mencetak invoice
